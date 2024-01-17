@@ -1,0 +1,31 @@
+*{
+  background:darkorange;
+  }
+
+
+h1{
+  text-align: center;
+  font-size:42px;
+  text-decoration: underline;
+  }
+
+.container{
+  over-flow:hidden;
+  width :300px;
+  height:300px;
+  width: 50%; 
+ margin: 0 auto; 
+ padding-top:150px;
+}
+
+.container img{
+  width:100%;
+  height:100%;
+  transition:.5s;
+  
+  
+  }
+.container:hover img{
+  scale:120%;
+  
+  }
